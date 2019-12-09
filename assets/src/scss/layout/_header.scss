@@ -1,0 +1,57 @@
+header {
+    background-color: $blue-color-base;
+    box-shadow: 5px 2px 5px $gray-color;
+
+    .nav-header {
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        img {
+            width: 80px;
+            height: 80px;
+        }
+
+        span {
+            .fa-bars {
+                display: none;
+            }
+        }
+        .menu-header {
+            float: right;
+            color: $color-white;
+            display: flex;
+            align-self: center;
+            width: 50%;
+            justify-content: space-around;
+            li {
+                list-style: none;
+                display: inline;
+
+                a{
+                    text-decoration: none;
+
+                    &:link, &:visited, &:active {
+                        color: $color-white;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// header{
+//     background-color: $color;
+
+//     .menu{
+//         float: right;
+
+//         ul li{
+//             display: inline;
+
+//             a{
+//                 text-decoration: none;
+//                 color: $main-color;
+//             }
+//         }
+//     }
+// }

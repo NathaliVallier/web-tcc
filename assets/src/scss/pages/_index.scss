@@ -1,0 +1,58 @@
+body {
+    font-family: $overpass;
+}
+
+.section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    img {
+        width: 100%;
+        opacity: 0.7;
+    }
+    .text-section {
+        position: absolute;
+        align-self: center;
+        width: 200px;
+        text-align: center;
+
+        p {
+            font-weight: bold;
+
+            span {
+                color: $blue-color-button;
+            }
+        }
+    }
+}
+
+.section-concept {
+    width: 750px;
+    margin: 0 auto;
+    .concept {
+        text-align: center;
+        color: $blue-color-title;
+        padding-top: 150px;
+
+        .fa-question-circle,
+        .fa-handshake,
+        .fa-skating,
+        .fa-comment-alt {
+            font-size: 24px;
+        }
+
+        p {
+            color: $black-color;
+            padding-top: 5%;
+        }
+    }
+}
+
+.background-item {
+    width: 100%;
+
+    img {
+        width: 100%;
+    }
+}
